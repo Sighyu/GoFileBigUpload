@@ -4,6 +4,25 @@ Automatically uploads large files to [GoFile](https://gofile.io) when they go ov
 
 > Requires [Vencord](https://github.com/Vendicated/Vencord) or any fork such as [Equicord](https://github.com/Equicord/Equicord).
 
+## Preview
+<details>
+  <summary><b>Header toolbar section</b></summary>
+  
+  <img width="367" height="222" alt="Image" src="https://github.com/user-attachments/assets/2f3cea3a-5134-46a4-891e-6ea20b14fd22" />
+</details>
+
+<details>
+  <summary><b>Settings Page</b></summary>
+  
+  <img width="604" height="620" alt="Image" src="https://github.com/user-attachments/assets/9e32b4fc-c3f8-4d2d-919b-4a33b3004ac9" />
+</details>
+
+<details>
+  <summary><b>Preview of intercepting discord upload for 1mb limit as test</b></summary>
+  
+  ![Image](https://github.com/user-attachments/assets/31ee4148-f546-44b3-a049-c0e60f1ed599)
+</details>
+
 ## Installation
 
 1. Navigate to your `src/userplugins` folder
