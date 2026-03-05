@@ -1,0 +1,165 @@
+.vc-gofile-btn,
+.vc-gofile-icon {
+    -webkit-app-region: no-drag;
+}
+
+.vc-gofile-icon {
+    color: var(--interactive-normal);
+}
+
+.vc-gofile-btn[class*="selected"] .vc-gofile-icon {
+    color: var(--interactive-active);
+}
+
+.vc-gofile-btn:hover .vc-gofile-icon {
+    color: var(--interactive-hover);
+}
+
+.vc-gofile-btn-wrapper {
+    position: relative;
+    display: inline-flex;
+}
+
+.vc-gofile-progress-badge {
+    position: absolute;
+    bottom: -2px;
+    right: -4px;
+    background-color: var(--background-brand);
+    color: var(--white);
+    font-size: 9px;
+    font-weight: var(--font-weight-bold);
+    line-height: 1;
+    padding: 1px 3px;
+    border-radius: 4px;
+    pointer-events: none;
+    z-index: 1;
+    min-width: 14px;
+    text-align: center;
+}
+
+.vc-gofile-popout {
+    background-color: var(--background-surface-high);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    padding: 12px;
+    width: 320px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow-border), var(--shadow-high);
+    color: var(--text-default);
+}
+
+.vc-gofile-popout-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.vc-gofile-popout-title {
+    font-size: 14px;
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-strong);
+}
+
+.vc-gofile-popout-clear {
+    font-size: 12px;
+    color: var(--text-link);
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 2px 4px;
+}
+
+.vc-gofile-popout-clear:hover {
+    text-decoration: underline;
+}
+
+.vc-gofile-history-list {
+    overflow-y: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.vc-gofile-history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-radius: var(--radius-xs);
+    background-color: var(--background-mod-subtle);
+    gap: 8px;
+}
+
+.vc-gofile-history-item:hover {
+    background-color: var(--background-mod-normal);
+}
+
+.vc-gofile-history-name {
+    font-size: 13px;
+    color: var(--text-default);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+    min-width: 0;
+}
+
+.vc-gofile-history-copy {
+    flex-shrink: 0;
+    font-size: 12px;
+    color: var(--white);
+    cursor: pointer;
+    background-color: var(--background-brand);
+    border: none;
+    padding: 4px 8px;
+    border-radius: var(--radius-xs);
+    font-weight: var(--font-weight-medium);
+}
+
+.vc-gofile-history-copy:hover {
+    background-color: var(--brand-560);
+}
+
+.vc-gofile-history-empty {
+    color: var(--text-muted);
+    font-size: 13px;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.vc-gofile-uploading-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: var(--radius-xs);
+    background-color: var(--background-mod-subtle);
+}
+
+.vc-gofile-uploading-bar {
+    flex: 1;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--background-mod-muted);
+    overflow: hidden;
+}
+
+.vc-gofile-uploading-bar-fill {
+    height: 100%;
+    background-color: var(--control-brand-foreground-new);
+    border-radius: 2px;
+    transition: width 0.2s ease;
+}
+
+.vc-gofile-uploading-text {
+    font-size: 12px;
+    color: var(--text-default);
+    white-space: nowrap;
+}
