@@ -7,7 +7,7 @@ Automatically uploads large files to [GoFile](https://gofile.io) when they go ov
 ## Installation
 
 1. Navigate to your `src/userplugins` folder
-2. Clone or pull the plugin: `git clone <will replace once I make repo :3>` / `git pull`
+2. Clone or pull the plugin: `git clone https://github.com/Sighyu/GoFileBigUpload.git` / `git pull`
 3. Run `pnpm build` from the root directory
 4. Enable **GoFileBigUpload** in the plugins menu
 
