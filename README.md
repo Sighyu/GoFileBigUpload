@@ -2,7 +2,7 @@
 
 Automatically uploads large files to [GoFile](https://gofile.io) when they go over Discord's upload limit, and then pastes the download link into the chat box.
 
-> Requires [Vencord](https://github.com/Vendicated/Vencord) or any fork such as [Equicord](https://github.com/Equicord/Equicord).
+> Requires [Equicord](https://github.com/Equicord/Equicord).
 
 ## Preview
 <details>
